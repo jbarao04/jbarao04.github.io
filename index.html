@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>João Barão</title>
+  <meta name="description" content="Personal website of João Barão, MSc Data Science student at UCL.">
+  <style>
+    :root {
+      --bg: #f5f7fb;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #4b5563;
+      --accent: #2563eb;
+      --border: #e5e7eb;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 48px auto;
+      padding: 0 20px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 40px 32px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    }
+
+    h1, h2 {
+      margin-top: 0;
+      line-height: 1.2;
+    }
+
+    h1 {
+      font-size: 2.4rem;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 1.35rem;
+      margin-bottom: 14px;
+      color: var(--text);
+    }
+
+    p {
+      margin: 0 0 16px;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    .intro {
+      margin-bottom: 36px;
+    }
+
+    .highlight {
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 22px;
+    }
+
+    .links a {
+      text-decoration: none;
+      color: white;
+      background: var(--accent);
+      padding: 10px 16px;
+      border-radius: 10px;
+      font-weight: 600;
+      transition: transform 0.15s ease, opacity 0.15s ease;
+    }
+
+    .links a:hover {
+      opacity: 0.92;
+      transform: translateY(-1px);
+    }
+
+    .section {
+      margin-top: 34px;
+      padding-top: 28px;
+      border-top: 1px solid var(--border);
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+      color: var(--muted);
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .footer {
+      margin-top: 28px;
+      font-size: 0.95rem;
+      color: #6b7280;
+    }
+
+    @media (max-width: 640px) {
+      .card {
+        padding: 28px 20px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <section class="card">
+      <div class="intro">
+        <h1>João Barão</h1>
+        <p>
+          I am an <span class="highlight">MSc Data Science student at UCL</span>.
+        </p>
+        <p>
+          Previously, I studied <span class="highlight">Artificial Intelligence and Data Science at the University of Porto</span>, where I graduated as the <span class="highlight">best student of my bachelor's degree</span>.
+        </p>
+        <p>
+          My interests include machine learning, artificial intelligence, data science, and research.
+        </p>
+
+        <div class="links">
+          <a href="mailto:your.email@example.com">Email</a>
+          <a href="https://github.com/jbarao04" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/your-linkedin/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>About</h2>
+        <p>
+          Welcome to my personal website. I will use this page to share a bit about my academic background, interests, and future work.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>Education</h2>
+        <ul>
+          <li><strong>UCL</strong> — MSc in Data Science</li>
+          <li><strong>University of Porto</strong> — Bachelor's in Artificial Intelligence and Data Science</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Interests</h2>
+        <ul>
+          <li>Machine Learning</li>
+          <li>Artificial Intelligence</li>
+          <li>Data Science</li>
+          <li>Research</li>
+        </ul>
+      </div>
+
+      <p class="footer">
+        Last updated: April 2026
+      </p>
+    </section>
+  </main>
+</body>
+</html>
