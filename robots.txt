@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://jbarao04.github.io/sitemap.xml
