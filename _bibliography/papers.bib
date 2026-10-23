@@ -1,0 +1,16 @@
+---
+---
+
+@mastersthesis{barao2026thesis,
+  abbr        = {UCL},
+  bibtex_show = {true},
+  title       = {Efficiently Combining LLMs and Humans to Grade Test Collections for Retrieval Evaluation},
+  author      = {Barão, João},
+  school      = {MSc thesis, University College London},
+  year        = {2026},
+  month       = {aug},
+  abstract    = {Test collections to evaluate and benchmark retrieval systems include different queries and text passages graded by how relevant each is to the query. These relevance judgments are grades a human assessor gives to each query-passage pair. They are, however, very expensive to produce and large language models are being increasingly used to grade query-passage pairs in place of human assessors. Test collections graded by LLMs produce rankings of retrieval systems that agree closely with the ones we would obtain from a human-graded test collection. However, the agreement falls when we restrict the comparison to the best systems being evaluated. This thesis asks how to efficiently combine humans and LLMs in grading a test collection so that the obtained ranking of the best systems is close to the one a fully human graded collection would give. An LLM can report when it is uncertain about a grade, and that could be used to decide which pairs to send first to a trained human assessor. The best signal we built predicts the per-query agreement with human assessors at a Kendall tau of 0.34. That is not enough to decide which queries to send back to a human assessor. To find out why, we analysed what a single grade error an LLM commits on a passage does to the ranking of systems. The damage on the ranking can be decomposed into two parts, one measuring how wrong the grade is and one measuring how differently the systems ranked that passage. This decomposition gives a selection rule to decide which pairs should be sent first to a human assessor. When sending only 9 to 14 percent, in four of the five years, of the pairs to a human assessor ordered by our proposed policy, the ranking of the twenty best systems agrees with the fully human ranking at a Kendall tau of 0.95.},
+  pdf         = {barao2026thesis.pdf},
+  annotation  = {Supervised by Prof. Ingemar Cox.},
+  selected    = {true}
+}

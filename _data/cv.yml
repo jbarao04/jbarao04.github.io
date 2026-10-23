@@ -1,0 +1,87 @@
+cv:
+  name: João Barão
+  label: Research Assistant, INESC-ID
+  email: joaomotabarao@gmail.com
+  location: Lisbon, Portugal
+  image: ""
+  summary: >-
+    I study what reinforcement learning teaches LLMs during post-training: open-ended and long-horizon environments with sparse
+    rewards, the capabilities produced by RL with verifiable rewards and whether they transfer, and reward hacking.
+
+  social_networks:
+    - network: GitHub
+      username: jbarao04
+    - network: LinkedIn
+      username: joaobarao2004
+
+  sections:
+    Education:
+      - institution: University College London (UCL)
+        location: London, UK
+        url: https://www.ucl.ac.uk/
+        area: Data Science
+        studyType: MSc
+        start_date: 2025-09
+        end_date: 2026-09
+        highlights:
+          - Graduated with Distinction.
+          - "MSc thesis: Efficiently Combining LLMs and Humans to Grade Test Collections for Retrieval Evaluation, supervised by Prof. Ingemar Cox."
+
+      - institution: University of Porto (FCUP / FEUP)
+        location: Porto, Portugal
+        url: https://www.up.pt/
+        area: Artificial Intelligence and Data Science
+        studyType: BSc
+        start_date: 2022-09
+        end_date: 2025-07
+        highlights:
+          - Best Student of the BSc in Artificial Intelligence and Data Science; highest GPA in the programme's history.
+          - Co-founded JuniorAI, Portugal's first AI Junior Enterprise (Sept. 2024 – Jul. 2025).
+
+    Experience:
+      - company: INESC-ID
+        position: Research Assistant, CMU Portugal Exploratory Research Project
+        location: Lisbon, Portugal
+        start_date: 2026
+        highlights:
+          - Working on QSHIELD, a joint INESC-ID / CMU project funded by FCT, with Prof. José Fragoso Santos (INESC-ID) and Prof. Limin Jia (CMU).
+
+      - company: Miles AI
+        position: Co-founder & CEO
+        location: London, UK
+        date: 2025
+        highlights:
+          - Co-founded a startup, backed by Sterling Road VC, building LLM and retrieval systems that draft replies to customer emails.
+          - Finalist in Imperial College London's IdeaForge startup incubator 2026 (top 5 of 100+ teams).
+
+      - company: University of Porto (FCUP)
+        position: Invited Teaching Assistant, Numerical Methods
+        location: Porto, Portugal
+        start_date: 2024
+        end_date: 2025
+        highlights:
+          - Supported undergraduate lab sessions, grading, and explanation of numerical algorithms and implementation exercises.
+
+      - company: NOS SGPS
+        position: Data Scientist Intern
+        location: Porto, Portugal
+        date: 2024
+        highlights:
+          - Developed and evaluated ML models for uncertainty quantification.
+
+    Projects:
+      - name: Hybrid LLM–Human Relevance Judgments for Evaluating Top Retrieval Systems
+        summary: Submitted to ECIR 2027. MSc thesis at UCL, supervised by Prof. Ingemar Cox.
+        start_date: 2026
+
+      - name: A Fine-Tuning Approach to Endangered Language Preservation and Word-Level Translation
+        summary: Fine-tuned LLaMA 3.1 8B and Gemma 3 4B with QLoRA for word-level translation of Chakma, an endangered language.
+        start_date: 2026
+
+      - name: Vota AI (RAG, NLP, LLMs)
+        summary: Co-developed a free RAG chatbot on party programmes for the Portuguese general elections, used by 50,000+ people. Featured on national TV.
+        start_date: 2025-05
+
+    Awards:
+      - title: Academic Distinction Scholarship "Impulso Jovens STEAM"
+      - title: Finalist, Portuguese Mathematical Olympiad

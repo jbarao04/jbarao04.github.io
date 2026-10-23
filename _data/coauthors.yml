@@ -1,0 +1,5 @@
+# Link co-authors to their pages, e.g.
+# "cox":
+#   - firstname: ["Ingemar", "I.", "Ingemar J."]
+#     url: https://...
+{}
