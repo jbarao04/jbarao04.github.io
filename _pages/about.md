@@ -37,7 +37,7 @@ My research interests lie in understanding what reinforcement learning (RL) teac
 
 My main research question is how to extend RL post-training beyond verifiable tasks, to open-ended and long-horizon problems. One of my long-term goals is to develop systems capable of open-ended scientific discovery.
 
-Outside research, I co-founded **Miles AI**, a startup backed by Sterling Road VC that builds LLM and retrieval systems for drafting replies to customer emails, and co-developed **Vota AI**, a chatbot on party programmes for the Portuguese general elections used by more than 50,000 people.
+Outside research, I co-founded **Miles AI**, a startup backed by Sterling Road VC that builds LLM and retrieval systems for drafting replies to customer emails, and co-developed **[Vota AI](/projects/3_vota_ai/)**, a chatbot on party programmes for the Portuguese general elections used by more than 50,000 people.
 
 <script type="application/ld+json">
 {
@@ -52,11 +52,7 @@ Outside research, I co-founded **Miles AI**, a startup backed by Sterling Road V
     "url": "https://jbarao04.github.io/",
     "image": "https://jbarao04.github.io/assets/img/prof_pic.jpg",
     "jobTitle": "Research Assistant",
-    "worksFor": {
-      "@type": "Organization",
-      "name": "INESC-ID",
-      "url": "https://www.inesc-id.pt/"
-    },
+    "worksFor": { "@type": "Organization", "name": "INESC-ID", "url": "https://www.inesc-id.pt/" },
     "alumniOf": [
       { "@type": "CollegeOrUniversity", "name": "University College London", "url": "https://www.ucl.ac.uk/" },
       { "@type": "CollegeOrUniversity", "name": "University of Porto", "url": "https://www.up.pt/" }
@@ -65,16 +61,31 @@ Outside research, I co-founded **Miles AI**, a startup backed by Sterling Road V
     "knowsAbout": ["Reinforcement learning", "Large language models", "RL post-training", "Reward hacking", "Information retrieval"],
     "sameAs": [
       "https://www.linkedin.com/in/joaobarao2004/",
-      "https://github.com/jbarao04"
+      "https://github.com/jbarao04",
+      "https://orcid.org/0009-0009-9893-1578",
+      "https://www.inesc-id.pt/member/fcb721c5-825e-4003-b486-97787f6ae7ec/"
     ],
     "subjectOf": [
-      { "@type": "NewsArticle", "url": "https://www.jn.pt/nacional/artigo/vota-ai-estudantes-da-uporto-lancam-assistente-para-a-comparar-propostas-dos-partidos/17759740" },
       { "@type": "NewsArticle", "url": "https://sicnoticias.pt/especiais/eleicoes-legislativas/2025-05-12-video-ainda-nao-sabe-em-quem-votar--dois-alunos-criam-plataforma-de-inteligencia-artificial-para-ajudar-eleitores-9a9a812e" },
-      { "@type": "NewsArticle", "url": "https://noticias.up.pt/fcup/auditorio-ferreira-da-silva-encheu-se-para-homengear-talentos-ciencias/" },
-      { "@type": "NewsArticle", "url": "https://ocidadao.pt/estudantes-da-universidade-do-porto-lancam-vota-ai-assistente-compara-programas-partidarios-baseado-em-inteligencia-artificial/" },
+      { "@type": "NewsArticle", "url": "https://www.rtp.pt/noticias/pais/vota-ai-um-comparador-politico-baseado-na-inteligencia-artificial_a1654689" },
+      { "@type": "NewsArticle", "url": "https://rr.pt/especial/politica/2025/05/14/indeciso-sobre-em-que-partido-votar-no-domingo-conversamos-com-uma-inteligencia-artificial-para-ajudar-a-decisao/425391/" },
+      { "@type": "NewsArticle", "url": "https://portocanal.sapo.pt/noticia/363568/" },
+      { "@type": "NewsArticle", "url": "https://observador.pt/2025/05/09/estudantes-da-universidade-do-porto-lancam-assistente-de-ia-para-comparar-propostas-dos-partidos/" },
+      { "@type": "NewsArticle", "url": "https://www.jn.pt/nacional/artigo/vota-ai-estudantes-da-uporto-lancam-assistente-para-a-comparar-propostas-dos-partidos/17759740" },
+      { "@type": "NewsArticle", "url": "https://www.noticiasaominuto.com/politica/2784589/jovens-do-porto-criam-plataforma-de-ia-para-explicar-programas-eleitorais" },
+      { "@type": "NewsArticle", "url": "https://www.noticiasaominuto.com/tech/2782639/legislativas-estudantes-lancam-ia-para-a-comparar-propostas-dos-partidos" },
+      { "@type": "NewsArticle", "url": "https://zap.aeiou.pt/estudantes-da-up-criam-plataforma-que-em-segundos-o-podem-ajudar-a-decidir-em-quem-votar-677581" },
       { "@type": "NewsArticle", "url": "https://www.dnoticias.pt/2025/5/9/448237-estudantes-da-uporto-lancam-assistente-de-ia-para-a-comparar-propostas-dos-partidos/" },
-      { "@type": "NewsArticle", "url": "https://www.noticiasaominuto.com/tech/2782639/legislativas-estudantes-lancam-ia-para-a-comparar-propostas-dos-partidos" }
+      { "@type": "NewsArticle", "url": "https://ocidadao.pt/estudantes-da-universidade-do-porto-lancam-vota-ai-assistente-compara-programas-partidarios-baseado-em-inteligencia-artificial/" },
+      { "@type": "NewsArticle", "url": "https://maissuperior.com/2025/05/12/vota-ai-universidade-do-porto-lanca-assistente-para-comparar-propostas-partidarias/" },
+      { "@type": "NewsArticle", "url": "https://www.jpn.up.pt/2025/05/12/estudantes-da-up-criam-plataforma-que-responde-em-segundos-a-perguntas-sobre-os-programas-eleitorais/" },
+      { "@type": "NewsArticle", "url": "https://inteligenciaartificialhoje.pt/vota-ai-entende-os-programas-eleitorais-das-legislativas-2025-com-inteligencia-artificial/" },
+      { "@type": "NewsArticle", "url": "https://www.portugalpulse.com/young-people-from-porto-create-an-ai-platform-to-explain-electoral-programs/" },
+      { "@type": "NewsArticle", "url": "https://noticias.up.pt/2025/05/12/estudantes-da-u-porto-lancam-assistente-para-comparar-propostas-dos-partidos/" },
+      { "@type": "NewsArticle", "url": "https://noticias.up.pt/fcup/estudantes-da-fcup-lancam-um-assistente-para-comparar-propostas-dos-partidos/" },
+      { "@type": "NewsArticle", "url": "https://noticias.up.pt/fcup/auditorio-ferreira-da-silva-encheu-se-para-homengear-talentos-ciencias/" }
     ]
   }
 }
 </script>
+
